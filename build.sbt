@@ -12,7 +12,8 @@ val testDependencies = Seq (
 )
 
 val rootDependencies = Seq(
-  "org.typelevel"              %% "cats-core"                      % "1.2.0"
+  "org.typelevel"              %% "cats-core"                      % "1.2.0",
+  "com.yahoo.datasketches"     %  "sketches-core"                  % "0.13.4"
 )
 
 val dependencies =
